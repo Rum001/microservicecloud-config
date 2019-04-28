@@ -1,0 +1,17 @@
+﻿spring:
+  profiles:
+    active: dev
+---
+
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-rum-dev
+---
+
+spring:
+  profiles: test
+    application:
+      name: microservicecloud-config-rum-test
+      
+    #保存的格式为UTF-8
